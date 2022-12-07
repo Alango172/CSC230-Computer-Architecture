@@ -41,10 +41,6 @@ main:
 
 	addi $v0, $zero, 10
 	syscall
-	
-# STUDENTS MAY MODIFY CODE BELOW
-# vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
-
 
 # Draws a 4x4 pixel box in the "Bitmap Display" tool
 # $a0: row of box's upper-left corner
@@ -84,6 +80,3 @@ end:
 	lw $ra, 0($sp)  	# Load the return adress and set back the stack pointer
 	addi $sp, $sp, 12
 	jr $ra
-	
-# ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-# STUDENTS MAY MODIFY CODE ABOVE
